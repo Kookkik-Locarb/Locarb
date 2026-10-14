@@ -1,0 +1,6 @@
+{
+  "name": "LO-CARB | Climate-Tech & Sustainability Consultancy",
+  "description": "Thailand's premier climate-tech and sustainability consultancy. We put the world on a carbon diet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

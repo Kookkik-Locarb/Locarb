@@ -42,7 +42,7 @@ const LocalizedLayout: React.FC<{ children: (lang: Language) => React.ReactNode 
   const lang: Language = rawLang === 'th' ? 'th' : 'en';
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#F3F0DF] text-[#000000] selection:bg-[#0EA552] selection:text-[#F3F0DF]">
+    <div className="min-h-screen flex flex-col bg-[#FAFAF7] text-[#0E0E0C] selection:bg-[#0B7A3E] selection:text-white">
       <ScrollToTop />
       <Navbar lang={lang} onOpenSearch={() => setSearchOpen(true)} />
       <main className="flex-1 w-full">{children(lang)}</main>

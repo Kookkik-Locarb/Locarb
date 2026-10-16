@@ -91,13 +91,19 @@ export const Navbar: React.FC<NavbarProps> = ({ lang, onOpenSearch }) => {
   return (
     <header
       ref={navRef}
-      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-[#F3F0DF]/95 backdrop-blur-md shadow-sm border-b border-black/5 py-3'
-          : 'bg-[#F3F0DF] py-4'
+          ? 'py-2.5 px-3 sm:px-6 pointer-events-none'
+          : 'py-4 px-4 sm:px-6'
       }`}
     >
-      <div className="max-w-[1200px] mx-auto px-5 sm:px-6">
+      <div
+        className={`max-w-[1248px] mx-auto transition-all duration-300 pointer-events-auto ${
+          isScrolled
+            ? 'rounded-full bg-white/90 backdrop-blur-xl border border-black/8 shadow-[0_12px_32px_-8px_rgba(0,0,0,0.08)] px-5 sm:px-7 py-2.5'
+            : 'px-2 py-0'
+        }`}
+      >
         <div className="flex items-center justify-between gap-4">
           {/* Logo */}
           <Link

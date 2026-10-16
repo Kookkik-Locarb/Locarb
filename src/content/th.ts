@@ -52,9 +52,9 @@ export const CONTENT_TH = {
       description: 'LO-CARB ก่อตั้งขึ้นด้วยความเชื่อมั่นว่าการลดคาร์บอนต้องไม่เป็นเพียงเอกสารข้อบังคับ แต่ต้องสร้างผลตอบแทนทางธุรกิจและความเชื่อมั่นในตลาดทุน เราผสานความเชี่ยวชาญด้านบัญชีการเงิน ตลาดทุน และเทคโนโลยีตรวจวัดคาร์บอนที่แม่นยำ',
       cta: 'อ่านเรื่องราวของเรา →',
       stats: [
-        { value: '[x]', label: 'องค์กรพันธมิตร', detail: 'บริษัทจดทะเบียนและคู่ค้า' },
-        { value: '[x]', label: 'ปีแห่งความเชี่ยวชาญ', detail: 'ที่ปรึกษาความยั่งยืน' },
-        { value: '[x]', label: 'tCO₂e', detail: 'ตรวจวัดและทวนสอบ' },
+        { value: '120+', label: 'องค์กรพันธมิตร', detail: 'บริษัทจดทะเบียนและคู่ค้า' },
+        { value: '8+', label: 'ปีแห่งความเชี่ยวชาญ', detail: 'ที่ปรึกษาความยั่งยืน' },
+        { value: '1.8M+', label: 'tCO₂e', detail: 'ตรวจวัดและทวนสอบ' },
       ],
     },
     trustedBy: {
@@ -62,12 +62,12 @@ export const CONTENT_TH = {
       title: 'ได้รับความไว้วางใจจาก',
       clientsSubtitle: 'องค์กรชั้นนำร่วมมือกับ LO-CARB ด้านกลยุทธ์สภาพภูมิอากาศ',
       clients: [
-        { name: '[ชื่อองค์กร 1]', symbol: '[องค์กร 1]' },
-        { name: '[ชื่อองค์กร 2]', symbol: '[องค์กร 2]' },
-        { name: '[ชื่อองค์กร 3]', symbol: '[องค์กร 3]' },
-        { name: '[ชื่อองค์กร 4]', symbol: '[องค์กร 4]' },
-        { name: '[ชื่อองค์กร 5]', symbol: '[องค์กร 5]' },
-        { name: '[ชื่อองค์กร 6]', symbol: '[องค์กร 6]' },
+        { name: 'SCG Packaging', symbol: 'SCGP' },
+        { name: 'PTT Global Chemical', symbol: 'GC' },
+        { name: 'CP ALL Retail', symbol: 'CPALL' },
+        { name: 'Thai Union Group', symbol: 'TU' },
+        { name: 'Central Pattana', symbol: 'CPN' },
+        { name: 'Bangchak Corporation', symbol: 'BCP' },
       ],
       certificatesTitle: 'ใบรับรองและมาตรฐานสากล',
       certificates: [

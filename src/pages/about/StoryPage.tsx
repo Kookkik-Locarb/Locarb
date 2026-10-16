@@ -85,11 +85,11 @@ export const StoryPage: React.FC<{ lang: Language }> = ({ lang }) => {
                 <ul className="space-y-3 text-sm">
                   <li className="flex items-center justify-between border-b border-black/5 pb-2">
                     <span className="text-black/70">{lang === 'th' ? 'ก๊าซเรือนกระจกที่ทวนสอบ' : 'GHG Measured & Assured'}</span>
-                    <span className="font-bold text-[#0EA552]">185,000+ tCO₂e</span>
+                    <span className="font-bold text-[#0EA552]">1.8M+ tCO₂e</span>
                   </li>
                   <li className="flex items-center justify-between border-b border-black/5 pb-2">
                     <span className="text-black/70">{lang === 'th' ? 'องค์กรจดทะเบียนที่ให้คำปรึกษา' : 'Listed & Pre-IPO Clients'}</span>
-                    <span className="font-bold text-black">45+ Companies</span>
+                    <span className="font-bold text-black">120+ Companies</span>
                   </li>
                   <li className="flex items-center justify-between border-b border-black/5 pb-2">
                     <span className="text-black/70">{lang === 'th' ? 'การเป็นพันธมิตร IFRS' : 'IFRS Sustainability Alliance'}</span>

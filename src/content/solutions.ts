@@ -86,14 +86,14 @@ export const SOLUTIONS_DATA: SolutionItem[] = [
     iconName: 'Calculator',
     stats: {
       th: [
-        { value: '45+', label: 'องค์กรชั้นนำไว้วางใจ' },
-        { value: '380+', label: 'ผู้ใช้งานในระบบ' },
-        { value: '185,000+', label: 'tCO₂e ที่คำนวณแล้ว' },
+        { value: '120+', label: 'องค์กรชั้นนำไว้วางใจ' },
+        { value: '1,200+', label: 'ผู้ใช้งานในระบบ' },
+        { value: '1.8M+', label: 'tCO₂e ที่คำนวณแล้ว' },
       ],
       en: [
-        { value: '45+', label: 'Leading enterprises' },
-        { value: '380+', label: 'Active business users' },
-        { value: '185,000+', label: 'tCO₂e measured' },
+        { value: '120+', label: 'Leading enterprises' },
+        { value: '1,200+', label: 'Active business users' },
+        { value: '1.8M+', label: 'tCO₂e measured' },
       ],
     },
     benefits: {

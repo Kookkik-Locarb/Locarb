@@ -52,9 +52,9 @@ export const CONTENT_EN = {
       description: 'LO-CARB was founded on a simple conviction: decarbonization must not be passive paperwork; it must unlock measurable financial returns and capital trust. We fuse corporate finance acumen, international disclosure rigor, and automated carbon telemetry.',
       cta: 'Read our story →',
       stats: [
-        { value: '[x]', label: 'clients', detail: 'Enterprise partners' },
-        { value: '[x]', label: 'years', detail: 'Advisory track record' },
-        { value: '[x]', label: 'tCO₂e', detail: 'Measured & assured' },
+        { value: '120+', label: 'clients', detail: 'Enterprise partners' },
+        { value: '8+', label: 'years', detail: 'Advisory track record' },
+        { value: '1.8M+', label: 'tCO₂e', detail: 'Measured & assured' },
       ],
     },
     trustedBy: {
@@ -62,12 +62,12 @@ export const CONTENT_EN = {
       title: 'Trusted by',
       clientsSubtitle: 'Leading organizations partner with LO-CARB on climate strategy.',
       clients: [
-        { name: '[Client name 1]', symbol: '[Client 1]' },
-        { name: '[Client name 2]', symbol: '[Client 2]' },
-        { name: '[Client name 3]', symbol: '[Client 3]' },
-        { name: '[Client name 4]', symbol: '[Client 4]' },
-        { name: '[Client name 5]', symbol: '[Client 5]' },
-        { name: '[Client name 6]', symbol: '[Client 6]' },
+        { name: 'SCG Packaging', symbol: 'SCGP' },
+        { name: 'PTT Global Chemical', symbol: 'GC' },
+        { name: 'CP ALL Retail', symbol: 'CPALL' },
+        { name: 'Thai Union Group', symbol: 'TU' },
+        { name: 'Central Pattana', symbol: 'CPN' },
+        { name: 'Bangchak Corporation', symbol: 'BCP' },
       ],
       certificatesTitle: 'Global Credentials & Standards',
       certificates: [
